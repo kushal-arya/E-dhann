@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/listbackground"
+    tools:context=".odonationrequest">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Requirements:"
+        android:textSize="30sp"
+        android:layout_margin="24dp"
+        android:padding="8dp"/>
+    <CheckBox
+        android:id="@+id/cbfood1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Food"
+        android:textSize="20sp"
+        android:button="@drawable/checkboxcolor2"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp" />
+    <CheckBox
+        android:id="@+id/cbclothing1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Clothing"
+        android:textSize="20sp"
+        android:button="@drawable/checkboxcolor"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp" />
+    <CheckBox
+        android:id="@+id/cbmoney1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Money"
+        android:textSize="20sp"
+        android:button="@drawable/checkboxcolor1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp" />
+    <EditText
+        android:id="@+id/description1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Description" />
+
+    <Button
+        android:id="@+id/cbsubmit1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttonbackground1"
+        android:text="Submit "
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

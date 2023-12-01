@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".userregistration">
+
+    <TextView
+        android:id="@+id/registrationTitle"
+        android:layout_width="169dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="REGISTRATION"/>
+
+    <ImageView
+        android:id="@+id/userPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/registrationTitle"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/icon" />
+
+    <EditText
+        android:id="@+id/registrationUserName2"
+        android:layout_width="217dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/userPhoto"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <EditText
+        android:id="@+id/registrationEmail2"
+        android:layout_width="217dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/registrationUserName2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="4dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_mail"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/registrationPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@id/registrationEmail2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="2dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/registrationUserPhnNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@id/registrationPassword2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:digits="0123456789"
+        android:maxLength="10"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_ph"
+        android:hint="PhoneNumber"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/registrationUserAge"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@id/registrationUserPhnNumber2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:hint="Age"
+        android:digits="0123456789"
+        android:maxLength="10"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/registrationButton2"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registrationUserAge"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="124dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="SignUp/Regsiter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="111dp"
+        android:layout_marginRight="124dp" />
+
+    <TextView
+        android:id="@+id/goBackToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registrationButton2"
+        android:layout_marginTop="30dp"
+        android:text="Already Signed Up?Login"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="google_map_api_key">AIzaSyBcW7PQbZwL6Y7OOZRW-l343j95J-mkZkc</string>
+    <string name="app_name">E-Dhaan</string>
+    <string name="phone_n_o">Phone N.o</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="first_name">First name</string>
+    <string name="textview">Login</string>
+    <string name="age" />
+    <string name="location" />
+</resources>

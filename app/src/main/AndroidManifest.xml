@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.project">
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".adminverify"></activity>
+        <activity android:name=".Navigatengo" />
+        <activity android:name=".Ngodocument" />
+        <activity android:name=".VerifyPhoneActivity" />
+        <activity android:name=".Ngoprofile" />
+        <activity android:name=".Profilepage" />
+        <activity android:name=".Foodrecived" />
+        <activity android:name=".Fooddonate" />
+        <activity android:name=".Foodmain" />
+        <activity android:name=".clothRecived" />
+        <activity android:name=".DonateNavigate" />
+        <activity android:name=".Clothmain" />
+        <activity android:name=".Clothdonate" />
+        <activity android:name=".oldreceived" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_api_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Moneydonate" />
+        <activity android:name=".Moneymain" />
+        <activity android:name=".oldmain" />
+        <activity android:name=".odonationrequest" />
+        <activity android:name=".oldnewsfeed" />
+        <activity android:name=".Orphandoneed" />
+        <activity android:name=".Onewsfeed" />
+        <activity android:name=".noldage" />
+        <activity android:name=".ngo" />
+        <activity android:name=".norphan" />
+        <activity android:name=".ngologin" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Organneedinfo" />
+        <activity android:name=".Orphan" />
+        <activity android:name=".Organneed" />
+        <activity android:name=".Organdonate" />
+        <activity android:name=".OraganMain" />
+        <activity android:name=".bloodneedinfo" />
+        <activity android:name=".blooddonate" />
+        <activity android:name=".bloodneed" />
+        <activity android:name=".blood" />
+        <activity
+            android:name=".Userpage"
+            android:theme="@style/Theme.AppCompat" />
+        <activity android:name=".userregistration" />
+        <activity android:name=".userlogin" />
+        <activity android:name=".first">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
